@@ -13,7 +13,7 @@ export default function Topbar() {
     <li><div className='a'><Link to="/work" style={{color:"#12f7ff"}}>Work</Link></div></li>
     <li><div className='a'><Link to="/contact" style={{color:"#12f7ff"}}>Contact</Link></div></li>
     </ul>
-    <div id='menu-icon' className='bx bxl-github'></div>
+    <div id='menu-icon' className='social-icons' style={{width:'50px',marginTop:'5px'}}><a href='https://github.com/karthikn25/portfolio' target='blank'><i class='bx bxl-github'></i></a></div>
     
     </header>
     </div>
