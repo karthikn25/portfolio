@@ -55,12 +55,12 @@
     >.navlist{
       display: flex;
       >li{
-        >a{
-          color: var(--text-color);
+        >.a{
+          /* color: var(--text-color); */
           font-weight: 500;
           padding: 10px 20px;
         }
-        >a:hover{
+        >.a:hover{
           color: var(--hover-color);
           text-shadow: 0 0 10px rgba(18,247,255,0.6),
           0 0 20px rgba(18,247,255,0.6),

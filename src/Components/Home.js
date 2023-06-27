@@ -4,6 +4,7 @@ import { Typewriter} from"react-simple-typewriter";
 
 
 
+
 export default function Home() {
     const handleDone = () => {
         console.log(`Done after 10 loops!`)
