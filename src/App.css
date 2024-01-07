@@ -88,7 +88,7 @@
 .footer{
 text-align: center;
 height: max-content;
-width: 100%;
+width: 100vw;
 background: var(--second-bg-color);
 }
 .footer-items{
@@ -786,6 +786,7 @@ background: var(--second-bg-color);
       }
     }
   }
+  
   #about-title{
     margin-left: 100px;
   }
@@ -938,6 +939,12 @@ background: var(--second-bg-color);
 }
 }
 @media (max-width:900px) and (min-width:600px) {
+  .footer{
+    text-align: center;
+    height: max-content;
+    width: 110vw;
+    background: var(--second-bg-color);
+    }
   #about-title{
     margin-left: 350px;
   }
@@ -1104,6 +1111,12 @@ background: var(--second-bg-color);
       }
     }
   }
+  .footer{
+    text-align: center;
+    height: max-content;
+    width: 120vw;
+    background: var(--second-bg-color);
+    }
   .home-image{
     display: none;
   }
@@ -1213,6 +1226,12 @@ background: var(--second-bg-color);
       }
     }
   }
+  .footer{
+    text-align: center;
+    height: max-content;
+    width: 110vw;
+    background: var(--second-bg-color);
+    }
   .skills .row{
     position: relative;
     left: 50px;
@@ -1296,6 +1315,12 @@ background: var(--second-bg-color);
       }
     }
   }
+  .footer{
+    text-align: center;
+    height: max-content;
+    width: 130vw;
+    background: var(--second-bg-color);
+    }
   #about-title{
     margin-left: 250px;
   }
@@ -1445,6 +1470,12 @@ background: var(--second-bg-color);
       }
     }
   }
+  .footer{
+    text-align: center;
+    height: max-content;
+    width: 140vw;
+    background: var(--second-bg-color);
+    }
   #about-title{
     margin-left: 150px;
   }
