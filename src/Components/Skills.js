@@ -100,10 +100,10 @@ export default function Skills() {
             <div className="personal-info padd-15">
               <div className="row">
                 <div
-                  className="about-img"
-                  style={{ marginTop: "100px", marginLeft: "200px" }}
+                  className="about-img1"
+                  
                 >
-                  <img src={img3} alt="" style={{ height: "350px" }} />
+                  <img src={img3} alt="" />
                 </div>
               </div>
             </div>
@@ -121,18 +121,18 @@ export default function Skills() {
           <div className="row">
             <div className="personal-info padd-15">
               <div className="row">
-                <div className="about-img1">
+                <div className="about-img2">
                   <img src={img4} alt="" />
                 </div>
               </div>
             </div>
-            <div className="skill padd-15">
+            <div className="skill padd-15" id="tech-skill">
               <div className="row">
                 <div className="skill-item padd-15">
                   <h5>HTML</h5>
                   <div className="progress">
-                    <div className="progress-in " style={{ width: "87%" }}>
-                      <div className="skill-percent">87%</div>
+                    <div className="progress-in " style={{ width: "92%" }}>
+                      <div className="skill-percent">92%</div>
                     </div>
                   </div>
                 </div>
@@ -142,8 +142,8 @@ export default function Skills() {
                 <div className="skill-item padd-15">
                   <h5>CSS</h5>
                   <div className="progress">
-                    <div className="progress-in" style={{ width: "80%" }}>
-                      <div className="skill-percent">80%</div>
+                    <div className="progress-in" style={{ width: "85%" }}>
+                      <div className="skill-percent">85%</div>
                     </div>
                   </div>
                 </div>
@@ -153,8 +153,8 @@ export default function Skills() {
                 <div className="skill-item padd-15">
                   <h5>BOOTSTRAP</h5>
                   <div className="progress">
-                    <div className="progress-in" style={{ width: "85%" }}>
-                      <div className="skill-percent">85%</div>
+                    <div className="progress-in" style={{ width: "87%" }}>
+                      <div className="skill-percent">87%</div>
                     </div>
                   </div>
                 </div>
@@ -164,8 +164,8 @@ export default function Skills() {
                 <div className="skill-item padd-15">
                   <h5>JAVASCRIPT</h5>
                   <div className="progress">
-                    <div className="progress-in" style={{ width: "75%" }}>
-                      <div className="skill-percent">75%</div>
+                    <div className="progress-in" style={{ width: "80%" }}>
+                      <div className="skill-percent">80%</div>
                     </div>
                   </div>
                 </div>
@@ -215,6 +215,17 @@ export default function Skills() {
                 </div>
                 <div className="bar">
                   <span className="nodejs"></span>
+                </div>
+                <div className="skill-item padd-15">
+                  <h5>Figma</h5>
+                  <div className="progress">
+                    <div className="progress-in" style={{ width: "90%" }}>
+                      <div className="skill-percent">90%</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bar">
+                  <span className="figma"></span>
                 </div>
               </div>
             </div>

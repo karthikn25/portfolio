@@ -18,7 +18,7 @@ export default function Work() {
     <div className='col-3'>
     <div className='project-items'>
      <h3 style={{textAlign:'center'}}>CRUD APP</h3>  
-     <img src={img5} alt='' style={{height:'150px',width:'180px',marginLeft:'60px'}}/>
+     <img src={img5} alt='' className='wrk-img1'/>
      <div className='btn-box'>
      <button className='btn'>
      <a href='https://fastidious-swan-379d6a.netlify.app' target='blank' className='bx bxl-netlify'>Demo Link</a>
@@ -31,8 +31,8 @@ export default function Work() {
     </div>
     <div className='col-3'>
     <div className='project-items'>
-    <h3 style={{textAlign:'center'}}>SHOP HOME PAGE</h3>
-    <img src={img6} alt='' style={{height:'150px',width:'180px',marginLeft:'60px'}}/> 
+    <h3 style={{textAlign:'center'}}>GoShop</h3>
+    <img src={img6} alt='' className='wrk-img1'/> 
     <div className='btn-box'>
      <button className='btn'>
      <a href='https://fastidious-swan-379d6a.netlify.app' target='blank' className='bx bxl-netlify'>Demo Link</a>
@@ -45,8 +45,8 @@ export default function Work() {
     </div>
     <div className='col-3'>
     <div className='project-items'>
-    <h3 style={{textAlign:'center'}}>MONEY MANAGER APP</h3>
-    <img src={img7} alt='' style={{height:'150px',width:'180px',marginLeft:'60px'}}/> 
+    <h3 style={{textAlign:'center'}}>Age Calculator</h3>
+    <img src={img7} alt='' className='wrk-img1'/> 
     <div className='btn-box'>
     <button className='btn'>
     <a href='https://fastidious-swan-379d6a.netlify.app' target='blank' className='bx bxl-netlify'>Demo Link</a>
