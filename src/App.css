@@ -110,14 +110,13 @@ background: var(--second-bg-color);
   }
 }
 .home{
-  padding: 100px 10%;
-  min-height: 100vh;
+  padding: 10px 10%;
+  min-height: 81vh;
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
-  grid-gap: 4em;
  }
  .home-content{
   max-width: 600px;
@@ -1117,6 +1116,7 @@ background: var(--second-bg-color);
     width: 120vw;
     background: var(--second-bg-color);
     }
+   
   .home-image{
     display: none;
   }
